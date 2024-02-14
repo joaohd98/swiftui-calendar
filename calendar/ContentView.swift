@@ -17,7 +17,7 @@ struct ContentView: View {
     let finalRotation: Double = -40
     let yOffsetMultiplier: CGFloat = 0.2
 
-    @State private var phoneLiftedUp: Double = 1
+    @State private var phoneLiftedUp: Double = 0
     let motionManager = CMMotionManager()
 
     func startMotionDetection() {
